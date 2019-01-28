@@ -1,10 +1,10 @@
 <template>
 <div>
-  <p>Eyecatch</p>
-  {{ title }}
+  <p>Eyecatch {{title}}</p>
 </div>
 </template>
 <script>
 export default {
-  props: ['title']
+  props: ['title'],
 }
+</script>
