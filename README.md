@@ -1,21 +1,22 @@
-## ページ生成くん
+# page-builder
 
-jsonファイルで設定を書き、それにもとづいてコンポーネントを組み合わせページを組み立てるサンプル
+> My ultimate Nuxt.js project
 
-## テスト方法
+## Build Setup
 
-初回ビルド＆devserver立ち上げ
+``` bash
+# install dependencies
+$ npm install
 
-```
-$ node index.js
-$ cd dist
+# serve with hot reload at localhost:3000
 $ npm run dev
+
+# build for production and launch server
+$ npm run build
+$ npm start
+
+# generate static project
+$ npm run generate
 ```
 
-devserverが立ち上がっている状態でtest.jsonの文字列を書き換えたりして
-
-```
-$ node index.js
-```
-
-とすると、ページが更新されます
+For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).

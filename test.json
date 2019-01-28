@@ -1,7 +1,0 @@
-{
-  "title": "test",
-  "components": [
-    { "name": "CompOne", "data": [{ "name": "text1", "value": "hello" }, { "name": "text2", "value": "Byebye" }]},
-    { "name": "CompTwo", "data": [{ "name": "text1", "value": "Goodbye"}, { "name": "text2", "value": "world" }]}
-  ]
-}
